@@ -6,10 +6,13 @@
 */
 
 body {
+  font-family: 'Poppins', sans-serif;
   /* Default font family and font color */
 }
 
-p, li, textarea, label, input, select {
+p {
+  font-size: 16px;
+  text-align: justify;
   /* Default font size and line height */
 }
 
@@ -63,3 +66,35 @@ a:hover {
 * Components
 * ----------
 */
+.entete {
+  background-color: #fcce00;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 0;
+  padding-bottom: 80px;
+  margin-bottom: 64px;
+}
+
+.entete_titre {
+margin: 0;
+font-size: 88px;
+text-transform: uppercase;
+}
+
+.entete_sous-titre {
+  font-size: 38px;
+  background-color: #ff6b00;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-title {
+font-size: 24px;  
+text-align: center;
+}
+
