@@ -147,7 +147,7 @@ text-align: right
 .colonnes2 {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .bloc-image-arcade {
@@ -197,3 +197,130 @@ padding: 20px;
     text-align: center;
     font-size: 40px;
   }
+
+  .colonnes3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color:#e02020; 
+  }
+
+.bloc-texte-anarcade {
+flex-basis: 0;
+flex-grow: 1;
+text-align: left;
+margin: 0px;
+padding: 20px;
+}
+
+.titre-anarcade {
+  font-size: 24px;  
+  text-align: left;
+  font-weight: bold;
+  color: white;  
+}
+
+.texte-anarcade {
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+}
+
+.button-blanc {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.bloc-image-anarcade {
+flex-basis: 0;
+flex-grow: 1;
+text-align: right;
+}
+
+.photo-anarcade {
+mix-blend-mode: darken; 
+}
+
+
+.colonnes4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color:#b620e0;  
+}
+
+.bloc-texte-colortv {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.titre-colortv {
+  font-size: 24px;  
+  text-align: left;
+  font-weight: bold;
+  color: white; 
+}
+
+.texte-colortv {
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+}
+
+.bloc-image-colortv {
+flex-basis: 0;
+flex-grow: 1;
+text-align: right;
+}
+
+.photo-colortv {
+mix-blend-mode: darken; 
+}
+
+
+.colonnes5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color:#6236ff;  
+}
+
+.bloc-texte-computer {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.titre-computer {
+  font-size: 24px;  
+  text-align: left;
+  font-weight: bold;
+  color: white; 
+}
+
+.texte-computer {
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+}
+
+.bloc-image-computer {
+flex-basis: 0;
+flex-grow: 1;
+text-align: right;
+}
+
+.photo-computer {
+mix-blend-mode: darken; 
+}
