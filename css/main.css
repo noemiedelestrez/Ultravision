@@ -324,3 +324,38 @@ text-align: right;
 .photo-computer {
 mix-blend-mode: darken; 
 }
+
+.images {
+  background-color:#231f20; 
+  padding: 64px 0;
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.last-tittle {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.image-jeux {
+  margin: 16px 0;
+  max-width: 100%;
+}
+
+.contact {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.formulaire {
+  text-align: center;
+}
+
+.col {
+  color: white; 
+}
